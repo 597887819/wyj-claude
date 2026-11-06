@@ -1,0 +1,14 @@
+┌────────────────────────────────────────────────────────────────────────────┐
+│                                                                            │
+│                                                                            │
+│   Welcome wyj Claude!                        Tips for getting started      │
+│                                             Ask Claude to create a new app │
+│        ▄▄▄▄                                 or clone a repository          │
+│      ▄█    █▄                                                              │
+│      ██    ██                              Recent activity                 │
+│      ██    ██                              No recent activity              │
+│        ▀█ █▀                                                               │
+│                                                                            │
+│ qwen3.7-plus  API Usage Billing ·                                          │
+└────────────────────────────────────────────────────────────────────────────┘
+/model to try qwen3.7-plus

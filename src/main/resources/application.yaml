@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: wyj-claude
+  ai:
+    deepseek:
+      api-key: ${DASHSCOPE_API_KEY}
+      chat:
+        model: qwen3.7-plus
+        # 注意:Spring AI 会在 base-url 后自动拼接 /chat/completions
+        # 阿里云百炼的 OpenAI 兼容入口是 /compatible-mode/v1, 而不是 /api/v1
+        base-url: https://ws-tw6t0xfltfcbbvs9.cn-beijing.maas.aliyuncs.com/compatible-mode/v1
+    mcp:
+      client:
+        stdio:
+          servers-configuration: classpath:/mcp/mcp-servers-config.json
+logging:
+  threshold:
+    console: DEBUG
+  level:
+    org.springframework.ai.chat.client.advisor: DEBUG
